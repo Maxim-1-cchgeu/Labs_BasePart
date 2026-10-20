@@ -32,8 +32,10 @@ void bissectus_year()
 
 void f()
 {
+    /* При x = 1, F(x) = 0.000000
+       При x = 2, F(x) = 0.125000 */
     float x;
-
+    
     puts("Введите x: ");
     scanf("%f", &x);
     printf("F(x)=%f", x <= 1 ? 0 : 1 / (x+6));
