@@ -7,6 +7,8 @@ void calculator();
 
 int main()
 {
+    setlocale(LC_CTYPE, "RUS.UTF-8");
+    
     task1();
     puts("");
     calculator();
