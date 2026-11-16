@@ -68,7 +68,7 @@ void calculator()
     }
 }
 
-void dz()
+void individual()
 {
     char c;
 
